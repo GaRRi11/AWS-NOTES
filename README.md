@@ -148,30 +148,6 @@ Endpoints: URLs to access services (e.g., ec2.us-east-1.amazonaws.com)
 
 ---
 
-## ❌ YOUR MISTAKES FROM THE PRACTICE TEST
-
-**Question 2**  
-You answered A (wrong), correct answer: B  
-Explanation: Route 53 doesn’t help with scaling directly. Auto Scaling does.  
-🔑 Tip: Route 53 = DNS, not scaling.
-
-**Question 5**  
-You answered C (wrong), correct answer: A  
-Explanation: KMS is for managing encryption keys, not handling user auth or API keys.  
-🔑 Tip: For access control, think IAM, not KMS.
-
-**Question 6**  
-You answered D (wrong), correct answer: A  
-Explanation: AWS provides whitepapers and compliance reports to help you evaluate services. Not "customer feedback".  
-🔑 Tip: If you want to verify AWS meets regulations, read their whitepapers or certifications.
-
-**Question 10**  
-You answered B (wrong), correct answer: A  
-Explanation: Shared Responsibility Model – AWS is responsible for security of the cloud (infra). You’re responsible for what you put in the cloud.  
-🔑 Tip: Always ask: Is this physical/hardware? Then it’s AWS.
-
----
-
 ### EC2 has access to storage, memory, and network interface. Its primary storage drive will come with a fresh and clean operating system.
 
 You choose hardware resources, the OS, and software stack.
